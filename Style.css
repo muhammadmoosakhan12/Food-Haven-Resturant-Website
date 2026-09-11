@@ -1,0 +1,352 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("Assets/Montserrat/Montserrat-VariableFont_wght.ttf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff8f0;
+  color: #333333;
+  font-family: "Montserrat";
+}
+
+header {
+   background-color: #8B0000;
+   height: 65px;
+}
+
+nav {
+  padding: 22px;
+  background-color: #2C2C2C;
+}
+
+.menu-nav{
+  background-color: #8B0000;
+}
+
+/* h1, h2, h3 {
+    color: #8B0000;
+} */
+
+nav ul li {
+  display: inline-block;
+}
+
+nav  ul{
+     text-align: center;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+main{
+  margin:  0 15px 0 15px;
+  height: 600px;
+}
+.contant-main{
+  padding: 20px 20px 0 20px;
+}
+.contant-main h1{
+  text-align: center;
+  font-size: 75px;
+  
+}
+
+.contant-main .main-img{
+  margin: 15px 0 30px 0
+}
+
+
+.contant-main .main-img img{
+ width: 40%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #ff0000;
+
+}
+
+
+.contant-main p{
+ font-size: 20px;
+ font-weight: 500;
+ color: #8B0000;
+
+ text-align: center;
+}
+
+.Our-Specialties{
+ margin:  30px 15px 0 15px;
+ text-align: center;
+}
+
+.Our-Specialties h2{
+ font-size: 30px;
+ text-align: center;
+ color: #fff8f0;
+ background-color: #8B0000;
+ padding: 10px;
+ border-radius: 10px;
+ border: 2px solid #ff0808;
+}
+
+.Our-Specialties ol{
+ text-align: center;
+ list-style: none;
+ margin: 20px 0 20px 0;
+  border: 2px solid #ff0000;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px;
+  
+}
+
+.Our-Specialties ol li{
+  font-size: 35px;
+  color: #8B0000;
+  font-weight: 500;
+
+}
+
+.menu-btn-container{
+  margin: 25px 0;
+  text-align: center;
+}
+
+.menu-btn-container a{
+  display: inline-block;
+    background-color: #8B0000;
+    border-radius: 8px;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px solid #ff0808;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff8f0;
+}
+
+/* Menu Css Part Start */  
+
+.text-contant{
+  margin:  20px auto;
+  background-color: #8B0000;
+  text-align: center;
+  border-radius: 5px;
+  border: 2px solid #ff0000;
+  width: 350px;
+}
+.line{
+  border-bottom: 2px solid #3a3838;
+  margin: 10px 30px;
+  
+}
+.text-contant h1{
+ color: #fff8f0;
+ font-size: 25px;
+ padding: 10px;
+}
+
+.table-menu{
+  padding: 30px;
+}
+
+.table-menu table{
+    margin: 0 auto;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table-menu table, th, td{
+ border-collapse: collapse;
+ border: 2px solid #ff0000;
+ text-align: center;
+}
+
+.table-menu th, td{
+padding: 10px;
+}
+
+#menu-th{
+  font-size: 30px;
+  font-weight: 900;
+  background-color: #8B0000;
+  color: white;
+  border: 2px solid  white;
+}
+
+
+.cell-food{
+    width: 20%;
+}
+
+.cell-type{
+  width: 30%;
+}
+
+.cell-price{
+    width: 20%;
+}
+
+.cell-deals{
+  width: 30%;
+}
+
+.th-style{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.table-menu td{
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.food-name{
+  background-color: #FFE4E1;
+  color: #8B0000;
+}
+
+.food-Falevor{
+  background-color: #FFF0F5;
+  color: #2C3E50;
+}
+
+.food-price{
+  background-color:#FFF8DC ;
+  color: #006400;
+}
+
+.deals-style{
+  background-color: #FFD700;
+  color: #4A0E17;
+}
+
+/* about section start */
+
+.about-all{
+  text-align: center;
+  padding: 15px;
+}
+
+.about-class{
+  margin-bottom: 15px;
+  background-color: #8B0000;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid red;
+  padding: 15px;
+}
+
+.about-class h1, h3{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.about-class h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.about-class h3{
+    font-size:25px;
+}
+
+.about-class p{
+    font-size:15px;
+    font-weight: 600;
+}
+
+#section-history{
+  background-color: #FFE4E1;
+  color: #8B0000;
+}
+
+#history-h3{
+  color: #8B0000;
+}
+
+.chief-image{
+  text-align: center;
+  padding: 30px 15px;
+  background-color: #2C2C2C;
+  color: white;
+  border: 2px solid red;
+  border-radius: 6px;
+}
+
+.chief-image img{
+  width: 300px;
+  border-radius: 15px;
+  border: 2px solid red;
+}
+
+.chief-image p{
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+#why-section{
+  margin-top: 15px;
+  
+}
+
+#why-section ul li{
+  list-style: none;
+}
+
+/* Contact section satart */
+
+.section-contact-us{
+  text-align: center;
+  background-color: #8B0000;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid red;
+  padding: 10px;
+  margin: 15px;
+}
+
+
+.from-section{
+  text-align: center;
+  background-color: #8B0000;
+  color: white;
+  border-radius: 5px;
+  border: 2px solid red;
+  padding: 5px;
+  margin: 15px;
+}
+
+.from-section h1{
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.from-section form{
+  border: 2px solid white;
+  background-color: #FFF0F5;
+  color: red;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.submit-btn{
+  background-color: #8B0000;
+  color: #FFF0F5;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid red;
+}
